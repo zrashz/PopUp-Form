@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Popup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="content-container">
+        <h1>Welcome To The Real World</h1>
+        <p>
+            "Welcome to the Real World" is a phrase often used to signify the transition
+             from a controlled or sheltered environment, like school or a familiar setting, 
+             into a more complex, challenging, and unpredictable phase of life, such as 
+             entering the workforce, facing adult responsibilities, or navigating new 
+             social landscapes. It emphasizes the reality of facing the consequences of 
+             one's actions, dealing with diverse and sometimes harsh circumstances, and 
+             learning to adapt to the demands and expectations of society. This phrase is commonly
+             used to remind people that life outside their comfort zone can be demanding
+              and requires resilience, adaptability, and self-reliance.
+        </p>
+        <button class="cta-btn" id="open">Sign Up</button>
+      </div>
+    </header>
+
+    <section class="modal-container" id="modal">
+      <section class="modal">
+        <button class="close-btn" id="close">x</button>
+        <div class="modal-content">
+          <h1>Sign Up</h1>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="text"
+                id="password"
+                placeholder="Enter Password"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="text"
+                id="password2"
+                placeholder="Confrim Password"
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </section>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
